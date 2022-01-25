@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Add New Customer</title>
+        <link rel="stylesheet" href="app.css">
+    </head>
+    
+    <body>
+        <h1>Please enter your details:</h1>
+
+        <form id = 'userData'>
+            <label for='firstName'>First name:</label><br>
+            <input type='text' id='firstName' name = 'firstName'><br>
+
+            <label for='lastName'>Last name:</label><br>
+            <input type='text' id='lastName' name = 'lastName'><br>
+
+            <label for='dob'>Date of Birth:</label><br>
+            <input type='text' id='dob' name = 'dob'><br>
+
+            <label for='country'>Country of Birth:</label><br>
+            <select id='country' name='country'>
+                <option value='nz'>New Zealand</option>
+                <option value='aus'>Australia</option>
+                <option value='italy'>Italy</option>
+                <option value='sweden'>Sweden</option>
+                <option value='china'>China</option>
+            </select><br>
+
+            <label for='licenseNum'>Drivers License Number:</label><br>
+            <input type='text' id='licenseNum' name = 'licenseNum'><br>
+
+            <label for='licenseVer'>Drivers License Version:</label><br>
+            <input type='text' id='licenseVer' name = 'licenseVer'><br>
+
+            <label for='licenseIssueDate'>Drivers License Date Issued:</label><br>
+            <input type='text' id='licenseIssueDate' name = 'licenseIssueDate'><br>
+
+            <label for='licenseExpiryDate'>Drivers License Expiry Date:</label><br>
+            <input type='text' id='licenseExpiryDate' name = 'licenseExpiryDate'><br>
+
+            <input type='submit' value='Submit'>
+
+        </form>
+    
+        <script src="app.js"></script>
+        
+    </body>
+
+</html>
